@@ -23,3 +23,7 @@ Migrating instance to eu-central-1c zone...
 User can connect to the new instance using the same key.
 
 Tested with: Amazon Linux 2 + Ubuntu 22.04
+
+
+#### Enhancements TBD
+- Fetch dynamically VPC ID + subnets
