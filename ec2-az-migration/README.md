@@ -1,7 +1,7 @@
-# This is a tool that resolves the InsufficientInstanceCapacity error when starting/launching an EC2 instance.
-## It creates an image from an Amazon EBS-backed instance and then migrates it to a new instance in a different availability zone.
+#### This is a tool that resolves the InsufficientInstanceCapacity error when starting/launching an EC2 instance.
+#### It creates an image from an Amazon EBS-backed instance and then migrates it to a new instance in a different availability zone.
 
-### Usage:
+Usage:
 ```
 # ./migrate_ec2.sh i-05f02cdc0f3c91xxx
 Move instance to Availability Zone:
@@ -19,3 +19,7 @@ Migrating instance to eu-central-1c zone...
 |  i-0a7018d3e80bd9xxx |  10.xx.3.69  |
 +----------------------+--------------+
 ```
+
+User can connect to the new instance using the same key.
+
+Tested with: AWS linux + Ubuntu
