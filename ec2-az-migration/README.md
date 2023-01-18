@@ -22,4 +22,4 @@ Migrating instance to eu-central-1c zone...
 
 User can connect to the new instance using the same key.
 
-Tested with: AWS linux + Ubuntu
+Tested with: Amazon Linux 2 + Ubuntu 22.04
