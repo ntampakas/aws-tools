@@ -57,7 +57,7 @@ _instance_state
 if [ "$instance_state" != "stopped" ]; then
     echo "Stopping instance..."
     aws ec2 stop-instances --profile $PROFILE --instance-ids $INSTANCE_ID --output table
-    sleep 70
+    sleep 90
 fi
 
 # Check if AMI exists and (re)create 
