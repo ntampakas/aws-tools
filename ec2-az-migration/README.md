@@ -1,5 +1,5 @@
 #### This is a tool that resolves the InsufficientInstanceCapacity error when starting/launching an EC2 instance.
-#### It creates an image from an Amazon EBS-backed instance and then migrates it to a new instance in a different availability zone.
+It creates an image from an Amazon EBS-backed instance and then migrates it to a new instance in a different availability zone.
 
 Usage:
 ```
