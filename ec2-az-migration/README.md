@@ -3,7 +3,7 @@
 
 ### Usage:
 ```
-# ./migrate_ec2.sh **i-05f02cdc0f3c91xxx**
+# ./migrate_ec2.sh i-05f02cdc0f3c91xxx
 Move instance to Availability Zone:
  1. eu-central-1a
  2. eu-central-1c
